@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RSS CSS Selector</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="modal">
+        <h2 class="win-title">Congratulation!</h2>
+        <button class="win-btn">Ok</button>
+      </div>
+      <header class="header">
+        <h1>RSS CSS Selector</h1>
+      </header>
+      <main class="main">
+        <div class="left">
+          <div class="main-header">
+            <h2>Levels</h2>
+            <ul class="list-levels">
+              <li class="list-level" data-level="0">1</li>
+              <li class="list-level" data-level="1">2</li>
+              <li class="list-level" data-level="2">3</li>
+              <li class="list-level" data-level="3">4</li>
+              <li class="list-level" data-level="4">5</li>
+              <li class="list-level" data-level="5">6</li>
+              <li class="list-level" data-level="6">7</li>
+              <li class="list-level" data-level="7">8</li>
+              <li class="list-level" data-level="8">9</li>
+              <li class="list-level" data-level="9">10</li>
+            </ul>
+            <div class="buttons">
+              <button class="button" id="help">Help</button>
+              <button class="button" id="reset">reset</button>
+            </div>
+          </div>
+          <div class="answer-wrap">
+            <p>CSS Viewer</p>
+            <div class="answer">
+              <input class="answer-css" type="text" name="css" id="css-answer" placeholder="Type in a CSS Selector" />
+              <button class="answer-submit">Enter</button>
+            </div>
+            <div class="css-text">
+              <p>{ styles: here }</p>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="game-table">
+            <div class="game-task">Some task...</div>
+            <div class="table"></div>
+          </div>
+          <div class="game-html">
+            <div class="html-wrapper">
+              <p>HTML Viewer</p>
+              <div class="html-code">
+                <pre><code class="html">
+
+                </code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <a class="link" href="https://rs.school/"><img src="./assets/images/rs_school_js.svg" width="60" alt="logo_rss" /></a>
+        <p>2023</p>
+        <a class="link" href="https://github.com/SidoryakaSergey?tab=repositories">Github</a>
+      </footer>
+    </div>
+  </body>
+</html>
