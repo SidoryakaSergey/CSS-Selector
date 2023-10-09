@@ -48,7 +48,7 @@
     "serve": "webpack serve --mode=development --progress",
     "build": "webpack",
     "build:prod": "webpack --config webpack.config.prod.ts",
-    "deploy": "npm run build && npx gh-pages -d dist -e rs-css"
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "engines": {
     "node": ">=16.0.0"
